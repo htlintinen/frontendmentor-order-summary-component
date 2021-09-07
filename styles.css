@@ -86,6 +86,11 @@ p {
   font-weight: bold;
 }
 
+.plan a:hover {
+  text-decoration:unset;
+  color: #7370EA;
+}
+
 .button-primary {
   margin-top:1rem;
   background-color: hsl(245, 75%, 52%);
@@ -98,6 +103,11 @@ p {
   box-shadow: 0rem 1rem 1rem 0.2rem hsl(225, 100%, 94%)
 }
 
+.button-primary:hover {
+  cursor: pointer;
+  background-color: #7370EA;
+}
+
 .button-secondary {
   margin-top:1rem;
   background-color:unset;
@@ -107,6 +117,11 @@ p {
   width: 100%;
   text-align: center;
   padding: 14px;
+}
+
+.button-secondary:hover {
+  color: black;
+  cursor: pointer;
 }
 
 .attribution { 
