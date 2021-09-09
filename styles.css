@@ -108,7 +108,7 @@ p {
   width: 100%;
   color: white;
   font-weight: bold;
-  box-shadow: 0rem 1rem 1rem 0.2rem var(--color-pale-blue);
+  box-shadow: 0rem 1rem 1rem 0.2rem hsl(240, 80%, 90%);
 }
 
 .button-primary:hover {
@@ -139,4 +139,14 @@ p {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 500px) {
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+  }
+
+  .card {
+    width: 350px;
+  }
 }
